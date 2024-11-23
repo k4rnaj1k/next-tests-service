@@ -18,8 +18,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/*": ["./*"],
+      "@/app/*": ["app/*"],
+      "@/utils/*": ["utils/*"]
+    },
+    "types": ["@types/jest", "@testing-library/jest-dom"] // Додаємо типи Jest та Testing Library
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]

@@ -1,4 +1,5 @@
 'use server'
+import React from 'react';
 import { Button, Card, CardActions, CardContent, Container, Grid, Typography } from "@mui/material";
 import { loadTestsData } from "../utils/tests";
 import Link from "next/link";
