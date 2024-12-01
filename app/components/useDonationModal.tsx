@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react';
 import { ContentCopy } from "@mui/icons-material";
 import { Box, Button, Modal, Typography, useMediaQuery } from "@mui/material";
 import { useState } from "react";
@@ -41,3 +42,4 @@ export const useDonationModal = (): [() => void, JSX.Element] => {
     const ModalComponent = <DonationModal isOpen={modalOpen} onClose={closeModal} />
     return [openModal, ModalComponent];
 };
+

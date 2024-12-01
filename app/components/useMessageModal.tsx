@@ -1,5 +1,5 @@
 'use client'
-
+import React from 'react';
 import { ContentCopy } from "@mui/icons-material";
 import { Box, Button, FormControl, Modal, Snackbar, TextField, Typography, useFormControl, useMediaQuery } from "@mui/material";
 import { useState } from "react";
